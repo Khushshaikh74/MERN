@@ -1,0 +1,34 @@
+/* Footer.css */
+
+.custom-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2.5rem;
+  background-color: #000; /* black background */
+  color: #ccc;            /* light gray text */
+}
+
+.custom-footer nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.footer-title {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: #ccc;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
